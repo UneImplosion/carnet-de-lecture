@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  margin: -20px -10px 0px -10px;
+}
+.container {
+  overflow: show;
+  background-image: linear-gradient(45deg, #0575E6, #021B79);
+
+  width: 100%;
+  margin: 0;
+  height: 150px;
+  border-bottom: groove;
+  border-radius: 15px;
+}
+header .logo {
+  float: left;
+  max-width: 110px;
+  max-height: 110px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+header .wrap {
+  padding-right: 100px;
+  float: right;
+  text-align: center;
+}
+header ul {
+  padding: 40px 10px 50px 10px;
+  display: inline-block;
+}
+header li {
+  display: inline;
+  margin: 0px 100px;
+}
+header a {
+  padding: 0px 3px;
+  font-weight: bold;
+  background: none;
+}
+header li img {
+  max-height: 40px;
+
+}
+header li img:hover{
+  filter: brightness(150%);
+  cursor: pointer;
+}
+.sidenav {
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 145px;
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  display: flex;
+}
+.btnRight {
+  margin-top: -400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sidenav a {
+    display: block;
+    margin: 15px auto;
+}
+.sidenav .btn {
+  opacity: 0.5;
+  max-width: 65px;
+  max-height: 65px;
+  border-radius: 50%;
+}
+.btn.onglets:hover {
+  opacity: 1;
+}
+.btn:hover {
+  transform: scale(1.2)
+}
+.article {
+  margin-right: 130px;
+  margin-left: 30px;
+}
+h1 {
+  font-size: 35px;
+}
+p {
+  font-size: 20px;
+}
+.test {
+  border: 15px solid;
+  border-radius: 50px;
+  border-spacing: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 250px;
+  /* standard gradient background */
+ background: linear-gradient( #ffa502, #ea473a);
+
+ /* clip hackery */
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+.bottomBtn .btn {
+  max-width: 65px;
+  max-height: 65px;
+  border-radius: 50%;
+}
+#previous {
+  transform: scaleX(-1);
+}
+.tabulation {
+  text-indent: 70%;
+}
+.article .btn {
+  display: inline-block;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+}
+.bottomBtn {
+  margin-top: 100px;
+  margin-right: 100px;
+}
+.choixWrapper {
+  display: flex;
+}
+.bottomBtn .choixWrapper {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+#wrapperDroite {
+  float: right;
+}
+.elementChoix {
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 10px;
+  padding-right: 10px
+}
+#boutonGauche {
+  transform: scale(-1);
+}
+#boutonGauche:hover {
+  transform: scale(-1.2);
+}
+#descDroite {
+  text-align: right;
+}
+.desc {
+  padding: 8px;
+  border: dashed;
+  border-color: #1e3799;
+}
